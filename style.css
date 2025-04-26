@@ -1,64 +1,82 @@
+/* Estilos Generales */
 body {
     font-family: Arial, sans-serif;
     background-color: #FFF5E1;
     color: #2F2F2F;
     margin: 0;
     padding: 0;
-  }
-  
-  nav {
+}
+
+nav {
     background-color: #FFCC80;
-  }
-  
-  .navbar-brand {
+}
+
+.navbar-brand {
     color: #000 !important;
     font-weight: bold;
-  }
-  
-  .nav-link {
+}
+
+.nav-link {
     color: #2F2F2F !important;
     font-weight: bold;
     transition: color 0.3s;
-  }
-  
-  .nav-link:hover {
+}
+
+.nav-link:hover {
     color: #000 !important;
-  }
-  
-  .container-custom {
+}
+
+.container-custom {
     max-width: 1200px;
     margin: 30px auto;
     background-color: white;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 0 12px #ccc;
-  }
-  
-  img {
+}
+
+img {
     max-width: 100%;
     border-radius: 10px;
-  }
-  
-  /* Especiales */
-  .card {
+}
+
+/* Especiales */
+.card {
     border: 1px solid #FFCC80;
     border-radius: 10px;
-  }
-  
-  .card-body {
+}
+
+.card-body {
     text-align: center;
-  }
-  
-  .alert {
+}
+
+.alert {
     border-left: 4px solid #FFCC80;
-  }
-  
-  ul {
+}
+
+ul {
     padding-left: 20px;
-  }
-  
-  li {
+}
+
+li {
     margin-bottom: 10px;
     font-size: 1.1em;
-  }
-  
+}
+
+/* Footer */
+footer {
+    background-color: #f3e8ff; /* Lila MUY suave */
+    color: #6c3579; /* Lila más oscuro para el texto */
+    font-size: 0.875rem; /* Tamaño pequeño */
+    text-align: right; /* Texto alineado a la derecha */
+    padding: 1rem 2rem; /* Espaciado interno */
+    margin-top: 2rem; /* Separación superior */
+    border-top: 1px solid #d3b8f0; /* Línea superior lila clarita */
+}
+
+/* Footer Responsive */
+@media (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+}
