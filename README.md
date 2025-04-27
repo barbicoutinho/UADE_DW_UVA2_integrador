@@ -66,3 +66,5 @@ Ejemplo: <!-- Esto es un comentario en HTML -->.
 Desplegá el sitio en el github pages
 • La entrega se realizará como parte de la entrega del parcial con un enlace al
 repositorio y el sitio desplegado.
+
+RESULTADO: https://barbicoutinho.github.io/UADE_DW_UVA2_integrador/
